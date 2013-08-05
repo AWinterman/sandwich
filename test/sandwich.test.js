@@ -1,5 +1,5 @@
 var sandwich = require('..');
-var test = require('tap').test;
+var test = require('tape');
 var pathutil = require('path');
 var fs = require('fs');
 var deepEqual = require('deep-equal');

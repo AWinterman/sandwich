@@ -7,11 +7,10 @@
     "test": "test"
   },
   "devDependencies": {
-    "tap": "~0.3.1",
-    "deep-equal": "0.0.0"
+    "tape": "~1.0.4",
   },
   "scripts": {
-    "test": "./node_modules/.bin/tap test/*.test.js"
+    "test": "node test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,24 @@
     "streaming"
   ],
   "author": "Brian J. Brennan",
-  "license": "MIT"
+  "license": "MIT",
+  "testling": {
+    "files":"test/*.test.js",
+    "browsers": [
+      "ie8",
+      "ie9",
+      "ie10",
+      "ff19",
+      "firefox/nightly",
+      "opera/10", 
+      "opera/next",
+      "chrome/canary",
+      "chrome/25",
+      "safari/5.1",
+      "safari/6.0",
+      "iphone",
+      "ipad",
+      "android-browser"
+    ]
+  }
 }
