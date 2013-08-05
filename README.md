@@ -1,4 +1,6 @@
 # sandwich [![Build Status](https://secure.travis-ci.org/brianloveswords/sandwich.png)](http://travis-ci.org/brianloveswords/sandwich)
+[![browser
+support](https://ci.testling.com/AWinterman/sandwich.png)](https://ci.testling.com/AWinterman/sandwich)
 
 Iterator generator for getting ordered combinations of items.
 
